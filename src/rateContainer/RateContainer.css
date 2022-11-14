@@ -1,0 +1,115 @@
+.containerForSumbitandRate {
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  height: 150px;
+}
+.containerForRateNumbers {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+}
+
+.oval {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 42px;
+  width: 42px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 20px;
+  background: #262e38;
+  font-family: "Overpass";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.17499999701976776px;
+  text-align: center;
+  color: #7c8798;
+}
+
+.oval:hover {
+  cursor: pointer;
+  background: #3a4758;
+}
+.oval.active {
+  background: salmon;
+  color: white;
+}
+
+.submit {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 45px;
+  width: 279px;
+  margin-left: 24px;
+  margin-top: 24px;
+  background: #fc7614;
+  border-radius: 22.5px;
+  font-family: "Overpass";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 1.8666666746139526px;
+  text-align: left;
+  color: #ffffff;
+  border-style: none;
+}
+.submit:hover {
+  cursor: pointer;
+  background: #e8c6ad;
+}
+@media only screen and (min-width: 1440px) {
+  .containerForSumbitandRate {
+    height: 151px;
+    width: 360px;
+    margin-left: 15px;
+  }
+  .containerForRateNumbers {
+    font-family: "Overpass";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+  }
+
+  .oval {
+    height: 51px;
+    width: 51px;
+
+    border-radius: 50px;
+  }
+
+  .oval:hover {
+    cursor: pointer;
+    background: #3a4758;
+  }
+  .oval.active {
+    background: salmon;
+    color: white;
+  }
+
+  .submit {
+    height: 145px;
+    width: 341px;
+    margin-left: 20px;
+    font-family: "Overpass";
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-align: left;
+
+    border-radius: 22.5px;
+  }
+  .submit:hover {
+    cursor: pointer;
+    background: #e8c6ad;
+  }
+}

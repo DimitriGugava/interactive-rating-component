@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap");
+
+.Container {
+  height: 360px;
+  width: 327px;
+  margin: 154px auto;
+  border-radius: 15px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 15px;
+  /* display: none; */
+}
+
+.starIcon {
+  height: 40px;
+  width: 40px;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.headerText {
+  height: 37px;
+  width: 279px;
+  margin-left: 24px;
+  margin-top: 16px;
+  font-family: "Overpass";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.secondaryText {
+  height: 66px;
+  width: 290px;
+  margin-left: 24px;
+  margin-top: 10px;
+  font-family: "Overpass";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #969fad;
+}
+
+.containerForRateNumbers {
+  height: 42px;
+  width: 281px;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .Container {
+    height: 416px;
+    width: 412px;
+
+    border-radius: 30px;
+  }
+
+  .starIcon {
+    height: 48px;
+    width: 48px;
+  }
+
+  .headerText {
+    height: 43px;
+    width: 220px;
+    font-family: "Overpass";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .secondaryText {
+    height: 72px;
+    width: 340px;
+
+    font-family: "Overpass";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .containerForRateNumbers {
+    height: 51px;
+    width: 341px;
+  }
+}

@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+.secondaryContainer {
+  height: 360px;
+  width: 327px;
+  margin: 154px auto;
+  border-radius: 15px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+}
+
+.thankYouIcon {
+  height: 96px;
+  width: 144px;
+  margin-left: 92px;
+  margin-top: 34px;
+}
+
+.showsSelectedBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 32px;
+  width: 175px;
+  margin-left: 80px;
+  margin-top: 24px;
+  border-radius: 22.5px;
+  background: rgba(38, 46, 56, 1);
+}
+
+.showsSelectedText {
+  display: flex;
+  height: 22px;
+  width: 150px;
+  font-family: "Overpass";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(252, 118, 20, 1);
+}
+
+.thankYouText {
+  height: 37px;
+  width: 279px;
+  margin-left: 24px;
+  margin-top: 29px;
+  font-family: "Overpass";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.thankYouLongText {
+  height: 66px;
+  width: 279px;
+  margin-left: 24px;
+  margin-top: 10px;
+  font-family: "Overpass";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(150, 159, 173, 1);
+}
+
+@media only screen and (min-width: 1440px) {
+  .secondaryContainer {
+    height: 416px;
+    width: 420px;
+  }
+
+  .thankYouIcon {
+    height: 108px;
+    width: 220px;
+  }
+
+  .showsSelectedBox {
+    height: 32px;
+    width: 250px;
+    border-radius: 22.5px;
+  }
+
+  .showsSelectedText {
+    height: 24px;
+    width: 170px;
+    font-family: "Overpass";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .thankYouText {
+    height: 43px;
+    width: 160px;
+    margin: 36px auto;
+    font-family: "Overpass";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .thankYouLongText {
+    height: 72px;
+    width: 340px;
+    font-family: "Overpass";
+    margin: -10px auto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+}
